@@ -1,0 +1,67 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#container{
+    height: 100%;
+    width: auto;
+}
+
+nav{
+    width: 20%;
+    height: 100vh;
+    background-color: red;
+}
+.first-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.square1{
+    height: 20px;
+    width: 20px;
+    background-color: lightgray;
+    border: 1px solid black;
+}
+
+.rect1{
+    height: 20px;
+    width: 40px;
+    background-color: lightgray;
+    border: 1px solid black;
+}
+
+
+.second-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50%;
+    background-color: black;
+
+}
+
+.link-tree{
+    height: 20px;
+    width: 60px;
+    background-color: lightgrey;
+    border: 1px solid black;
+
+}
+
+.third-container{
+    height: 40%;
+    background-color: blue;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.square2{
+    height: 150px;
+    width: 150px;
+    background-color: aqua;
+}
